@@ -1,0 +1,20 @@
+{
+  "name": "micropay-l2-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Micropay L2 frontend dashboard for multi-chain micropayments, batching, cross-chain simulation, and analytics.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ethers": "^6.10.0",
+    "next": "^14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.8.0",
+    "socket.io-client": "^4.7.5"
+  }
+}
